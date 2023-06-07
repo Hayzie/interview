@@ -89,7 +89,7 @@ const closeAddProjectPopup = () => {
   resetNewProject();
 };
 
-const addProject = (event) => {
+const addProject = (event:Event) => {
   event.preventDefault();
 
   store.addProject({
