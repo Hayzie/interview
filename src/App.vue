@@ -91,7 +91,7 @@ const closeAddProjectPopup = () => {
 
 const addProject = (event) => {
   event.preventDefault();
-  
+
   store.addProject({
     id: uuidv4(), // Generate a unique ID for the new project
     name: newProject.value.name,
