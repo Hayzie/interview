@@ -1,0 +1,41 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "Portfolio Website",
+        "customer": "Customer name",
+        "dateCreated": "2023-06-05"
+      },
+      {
+        "id": 2,
+        "name": "Ecommerce Website",
+        "customer": "Customer name",
+        "dateCreated": "2023-06-03"
+      },
+      {
+        "id": 3,
+        "name": "Recipe Sharing Platform",
+        "customer": "Customer name",
+        "dateCreated": "2023-06-01"
+      },
+      {
+        "id": 4,
+        "name": "Social Media Application",
+        "customer": "Customer name",
+        "dateCreated": "2023-05-28"
+      },
+      {
+        "id": 5,
+        "name": "Travel Booking Website",
+        "customer": "Customer name",
+        "dateCreated": "2023-05-28"
+      },
+      {
+        "id": 6,
+        "name": "Music Streaming Application",
+        "customer": "Customer name",
+        "dateCreated": "2023-05-28"
+      }
+    ]
+  }
+  

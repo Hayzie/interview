@@ -1,0 +1,43 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 1rem; */
+  font-weight: normal;
+}
+.sub-app-container,.app-header{
+  margin: 0 auto;
+  background-color: #edf0f3;
+}
+.search-input{
+  color: #0055FF;
+}
+
+::placeholder {
+  color: #0055FF !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #0055FF !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #0055FF !important;
+}
+
+body{
+  background-color: #FFFFFF;
+}
+
+.project-list{
+  min-width: 336px;
+}
+.button{
+  background-color: #0055FF !important;
+}
+
+.card{
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.03), 0px 1px 4px rgba(0, 0, 0, 0.05);
+}
