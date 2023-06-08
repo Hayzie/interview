@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// imports
  import IconAppBar from './icons/IconAppBar.vue';
  import IconAppBarBlack from './icons/IconAppBarBlack.vue';
  import { useAppBarStore  } from "../stores/store";
