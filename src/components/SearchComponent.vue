@@ -12,7 +12,7 @@ const store = useProjectStore();
            <SearchIcon />
         </div>
         <!-- search input -->
-        <input v-model="store.searchTerm" type="search" id="default-search" class="block search-input w-40 p-2 pl-10 text-sm border border-slate-500 rounded-full" placeholder="Search" required>
+        <input v-model="store.searchTerm" type="search" id="default-search" class="block outline-none font-medium search-input w-40 p-2 pl-10 text-sm border border-slate-500 rounded-full" placeholder="Search" required>
     </div>
     </div>
 </template>

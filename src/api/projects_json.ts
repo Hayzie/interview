@@ -25,6 +25,20 @@ const projects = [
       customer: 'Customer 4',
       dateCreated: "2023-06-01",
     },
+
+    {
+      id: '5',
+      name: 'Travel Booking Website',
+      customer: 'Customer 4',
+      dateCreated: "2023-06-01",
+    },
+
+    {
+      id: '6',
+      name: 'NFT Application',
+      customer: 'Customer 4',
+      dateCreated: "2023-06-01",
+    },
     
   ];
   

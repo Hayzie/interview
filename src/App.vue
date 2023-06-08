@@ -1,9 +1,9 @@
 
 <template>
   <div class="flex flex-col sub-app-container w-full lg:w-80 overscroll-none">
-    <div class="app-header pt-4 fixed top-0 left-1/2 transform -translate-x-1/2 z-45 w-full pb-8 pl-8 md:pl-2.5 lg:pl-2.5 md:w-80 lg:w-80">
+    <div class="app-header pt-4 relative top-0 left-1/2 transform -translate-x-1/2 z-45 w-full pb-8 pl-8 md:pl-2.5 lg:pl-2.5 lg:w-80">
     <!-- App title -->
-      <h1 class="text-4xl font-bold mb-4">{{store.title}}</h1>
+      <h1 class="text-4xl font-bold mb-4 zoom-in">{{store.title}}</h1>
     <!-- Search component -->
     <SearchComponent />
   </div>
@@ -24,7 +24,7 @@
       </button>
     </div>
     <!-- Add new project popup  -->
-    <div v-if="showAddProjectPopup" class="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-40">
+    <div v-if="showAddProjectPopup" class="fixed zoom-in inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-40">
       <div class="bg-white p-8 rounded shadow-lg">
         <h2 class="text-lg font-semibold mb-4">Add New Project</h2>
         <form @submit="addProject">
@@ -33,7 +33,7 @@
             <input
               v-model="newProject.name"
               type="text"
-              class="border border-gray-300 rounded-full w-full px-3 py-2"
+              class="border outline-none border-gray-300 rounded-full w-full px-3 py-2"
               required
             />
           </div>
@@ -41,7 +41,7 @@
             <label class="block text-sm font-medium text-gray-700">Customer name</label>
             <input
               v-model="newProject.customer"
-              class="border border-gray-300 rounded-full w-full px-3 py-2"
+              class="border outline-none border-gray-300 rounded-full w-full px-3 py-2"
               required
             />
           </div>
