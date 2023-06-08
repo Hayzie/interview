@@ -24,10 +24,6 @@ export const useProjectStore = defineStore('project', {
     // Add a new project
     addProject(project: Project) { //action to add a new project
       this.projects.unshift(project); // Add the new project to the beginning of the projects array
-      this.writeProjectsToFile();
-    },
-    writeProjectsToFile() {
-     //write to projects file
     },
     setTitle(strTitle: string): void { 
       this.title = strTitle;
