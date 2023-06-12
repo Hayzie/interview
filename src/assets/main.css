@@ -6,10 +6,16 @@
   /* padding: 1rem; */
   font-weight: normal;
 }
-.sub-app-container,.app-header{
+.sub-app-container,{
   margin: 0 auto;
   background-color: #edf0f3;
 }
+
+.app-header{
+  margin: 0 auto;
+  background-color: #edf0f3;
+}
+
 /* search input style */
 .search-input{
   color: #0055FF;
