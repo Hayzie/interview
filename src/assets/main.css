@@ -6,12 +6,7 @@
   /* padding: 1rem; */
   font-weight: normal;
 }
-.sub-app-container,{
-  margin: 0 auto;
-  background-color: #edf0f3;
-}
-
-.app-header{
+.sub-app-container,.app-header{
   margin: 0 auto;
   background-color: #edf0f3;
 }
